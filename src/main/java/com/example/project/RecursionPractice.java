@@ -3,6 +3,7 @@ package com.example.project;
 public class RecursionPractice {
 
 	public static void main(final String[] args) {
+		System.out.print(findTheFirstW("how",0));
 		//use main to test your functions!
 	}
 	
@@ -27,7 +28,7 @@ public class RecursionPractice {
 	//this is essentially factorial but with addition
 	public static long sum(long n){
 		if(n == 0){
-			return 0
+			return 0;
 
 		}
 		else{
@@ -43,11 +44,11 @@ public class RecursionPractice {
 	// If n == 1, 1 should be returned.
 	// For n > 1, it should return the sum of fibonacci(n - 1) and fibonacci(n - 2).
 	public static long fibonacci(long n){
-		if(n == 0{
+		if(n == 0){
 			return 0;
-		})
+		}
 		else if(n==1){
-			return 1,
+			return 1;
 		}
 		else{
 			return fibonacci(n-1) + fibonacci(n-2);
@@ -81,5 +82,5 @@ public class RecursionPractice {
 
 
 	}
-}
+
 
