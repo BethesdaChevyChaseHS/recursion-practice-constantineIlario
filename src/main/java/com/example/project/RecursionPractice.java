@@ -3,7 +3,7 @@ package com.example.project;
 public class RecursionPractice {
 
 	public static void main(final String[] args) {
-		System.out.print(findTheFirstW("how",0));
+		System.out.print(findTheFirstW("box",0));
 		//use main to test your functions!
 	}
 	
@@ -72,6 +72,9 @@ public class RecursionPractice {
 			return -1;
 		}
 		if(s.charAt(curIndex) == 'w'){
+			return curIndex;
+		}
+		if(s.charAt(curIndex) == 'W'){
 			return curIndex;
 		}
 
